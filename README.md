@@ -24,7 +24,7 @@ This simple password manager was built with **Shell Scripting (Bash)** to add/up
 - [ ] Graphical User Interface (GUI);
 - [ ] Web Interface;
 - [ ] Browser Integration;
-- [ ] Sync Across Devices.
+- [ ] Sync Across Devices;
 
 ## LICENSE
 
