@@ -1,6 +1,6 @@
 ## ABOUT
 
-This simple password manager was built with Shell Scripting (Bash) to add/update/delete user accounts and passwords. It doesn't have the security features of the typical password managers but I plan to implement in the future some ideas available below.
+This simple password manager was built with **Shell Scripting (Bash)** to add/update/delete user accounts and passwords. It doesn't have the security features of the typical password managers but I plan to implement in the future some ideas available below.
 
 ## REQUIREMENTS
 
