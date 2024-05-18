@@ -5,7 +5,7 @@ This simple password manager was built with **Shell Scripting (Bash)** to add/up
 ## REQUIREMENTS
 
 - Linux environment;
-- Shell scripting (Bash) knowledge;
+- Shell Scripting (Bash) knowledge;
 - Text editor;
 
 ## FUTURE IDEAS
