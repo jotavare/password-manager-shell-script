@@ -1,1 +1,24 @@
+# The password store. Never commit it: the script appends real credentials
+# to this file, and it is created on first run.
+user_data.csv
+sources/user_data.csv
+.password_manager_history
+sources/.password_manager_history
+.pm_*
+sources/.pm_*
+
+# Editor and OS droppings.
 .*.swp
+*.swp
+*~
+.DS_Store
+._*
+Thumbs.db
+.vscode/
+.idea/
+
+# Never commit credentials.
+.env
+.env.*
+*.pem
+*.key
