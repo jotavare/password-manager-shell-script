@@ -16,14 +16,15 @@
 
 ## ABOUT
 
-This simple password manager was built with **Shell Scripting (Bash)** to add/update/delete user accounts and passwords. It does not have the security features of a typical password manager.
+I wanted to get comfortable with **Shell Scripting (Bash)**, so I picked a problem small enough to finish in a day and awkward enough to be interesting: reading and writing structured records from a file, handling input, and keeping state between runs.
+
+The result adds, reads, updates and deletes account names and passwords. It does not have the security features of a typical password manager.
 
 > [!WARNING]
-> This is a learning exercise, not a password manager to rely on. Passwords are
-> stored in plain text in `sources/user_data.csv`, with no encryption and no
-> master password: anyone who can read the file can read every password in it.
-> Use it with throwaway values, and keep real credentials in a tool built for
-> the job.
+> Do not keep real credentials in this. Passwords are stored in plain text in
+> `sources/user_data.csv`, with no encryption and no master password, so
+> anything that can read the file can read every password in it. Use throwaway
+> values, and keep what matters in a tool built for the job.
 
 ## REQUIREMENTS
 
