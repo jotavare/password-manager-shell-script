@@ -1,6 +1,6 @@
 ## ABOUT
 
-This simple password manager was built with **Shell Scripting (Bash)** to add/update/delete user accounts and passwords. It doesn't have the security features of the typical password managers but I plan to implement in the future some ideas available below.
+This simple password manager was built with **Shell Scripting (Bash)** to add/update/delete user accounts and passwords. It does not have the security features of a typical password manager.
 
 > [!WARNING]
 > This is a learning exercise, not a password manager to rely on. Passwords are
@@ -38,23 +38,25 @@ The store is created next to the script on first run, as `user_data.csv` with
 Account names cannot be empty or contain a comma, since one record is one
 line. Passwords may contain commas.
 
-## FUTURE IDEAS
+## NOT IMPLEMENTED
 
-- [ ] Encryption;
-- [ ] Password Strength Validation;
-- [ ] Two-Factor Authentication (2FA);
-- [ ] Automatic Logout;
-- [ ] Password Generation;
-- [ ] Search and Filter;
-- [ ] Backup and Restore;
-- [ ] Multiple User Support;
-- [ ] Category Tagging;
-- [ ] Audit Logs;
-- [ ] Password Expiry Notifications;
-- [ ] Graphical User Interface (GUI);
-- [ ] Web Interface;
-- [ ] Browser Integration;
-- [ ] Sync Across Devices;
+Features a real password manager has and this one does not:
+
+- Encryption
+- Password Strength Validation
+- Two-Factor Authentication (2FA)
+- Automatic Logout
+- Password Generation
+- Search and Filter
+- Backup and Restore
+- Multiple User Support
+- Category Tagging
+- Audit Logs
+- Password Expiry Notifications
+- Graphical User Interface (GUI)
+- Web Interface
+- Browser Integration
+- Sync Across Devices
 
 ## CONTRIBUTING
 
