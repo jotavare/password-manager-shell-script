@@ -1,3 +1,19 @@
+<p align="center">
+	<img src="https://img.shields.io/badge/status-finished-success?color=%2312bab9&style=flat-square"/>
+	<img src="https://img.shields.io/github/languages/top/jotavare/password-manager-shell-script?color=%2312bab9&style=flat-square"/>
+	<img src="https://img.shields.io/github/last-commit/jotavare/password-manager-shell-script?color=%2312bab9&style=flat-square"/>
+	<a href='https://www.linkedin.com/in/jotavare' target="_blank"><img alt='Linkedin' src='https://img.shields.io/badge/LinkedIn-blue?style=flat-square'/></a>
+</p>
+
+<p align="center">
+	<a href="#about">About</a> •
+	<a href="#requirements">Requirements</a> •
+	<a href="#usage">Usage</a> •
+	<a href="#not-implemented">Not implemented</a> •
+	<a href="#contributing">Contributing</a> •
+	<a href="#license">License</a>
+</p>
+
 ## ABOUT
 
 This simple password manager was built with **Shell Scripting (Bash)** to add/update/delete user accounts and passwords. It does not have the security features of a typical password manager.
