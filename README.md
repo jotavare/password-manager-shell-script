@@ -29,7 +29,6 @@ This simple password manager was built with **Shell Scripting (Bash)** to add/up
 
 - Linux environment;
 - Bash 4 or newer;
-- `awk`, `grep` and `cut`, which are present on a standard install;
 
 ## USAGE
 
@@ -54,25 +53,39 @@ The store is created next to the script on first run, as `user_data.csv` with
 Account names cannot be empty or contain a comma, since one record is one
 line. Passwords may contain commas.
 
+An example session, with the password hidden as it is typed:
+
+```
+---------------------------------------------------------
+Welcome to the most simple and unsecure password manager!
+---------------------------------------------------------
+add        -> Insert account name and password.
+get        -> Search for specific account.
+update     -> Update account password.
+delete     -> Delete account name and password.
+delete all -> Delete all accounts.
+exit       -> Exit the password manager.
+---------------------------------------------------------
+> add
+Insert account name: github
+Insert password:
+Account name and password saved!
+> get
+Insert account name to search: github
+Your password is: hunter2
+> exit
+Exiting password manager...
+```
+
+
 ## NOT IMPLEMENTED
 
-Features a real password manager has and this one does not:
+The absences that matter for something holding passwords:
 
-- Encryption
-- Password Strength Validation
-- Two-Factor Authentication (2FA)
-- Automatic Logout
-- Password Generation
-- Search and Filter
-- Backup and Restore
-- Multiple User Support
-- Category Tagging
-- Audit Logs
-- Password Expiry Notifications
-- Graphical User Interface (GUI)
-- Web Interface
-- Browser Integration
-- Sync Across Devices
+- Encryption, the store is plain text
+- A master password, anything that can read the file can read every entry
+- Password generation
+- Password strength validation
 
 ## CONTRIBUTING
 
