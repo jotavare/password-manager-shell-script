@@ -21,10 +21,11 @@ I wanted to get comfortable with **Shell Scripting (Bash)**, so I picked a probl
 The result adds, reads, updates and deletes account names and passwords. It does not have the security features of a typical password manager.
 
 > [!WARNING]
-> Do not keep real credentials in this. Passwords are stored in plain text in
-> `sources/user_data.csv`, with no encryption and no master password, so
-> anything that can read the file can read every password in it. Use throwaway
-> values, and keep what matters in a tool built for the job.
+> This is a learning exercise, not a password manager to rely on. Passwords are
+> stored in plain text in `sources/user_data.csv`, with no encryption and no
+> master password: anyone who can read the file can read every password in it.
+> Use it with throwaway values, and keep real credentials in a tool built for
+> the job.
 
 ## REQUIREMENTS
 
@@ -90,7 +91,7 @@ The absences that matter for something holding passwords:
 
 ## CONTRIBUTING
 
-This repository holds a finished learning exercise and is not open to changes.
+This repository is finished and not open to changes.
 
 ## LICENSE
 
