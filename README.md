@@ -1,19 +1,3 @@
-<p align="center">
-	<img src="https://img.shields.io/badge/status-finished-success?color=%2312bab9&style=flat-square"/>
-	<img src="https://img.shields.io/github/languages/top/jotavare/password-manager-shell-script?color=%2312bab9&style=flat-square"/>
-	<img src="https://img.shields.io/github/last-commit/jotavare/password-manager-shell-script?color=%2312bab9&style=flat-square"/>
-	<a href='https://www.linkedin.com/in/jotavare' target="_blank"><img alt='Linkedin' src='https://img.shields.io/badge/LinkedIn-blue?style=flat-square'/></a>
-</p>
-
-<p align="center">
-	<a href="#about">About</a> •
-	<a href="#requirements">Requirements</a> •
-	<a href="#usage">Usage</a> •
-	<a href="#not-implemented">Not implemented</a> •
-	<a href="#contributing">Contributing</a> •
-	<a href="#license">License</a>
-</p>
-
 ## ABOUT
 
 I wanted to get comfortable with **Shell Scripting (Bash)**, so I picked a problem small enough to finish in a day and awkward enough to be interesting: reading and writing structured records from a file, handling input, and keeping state between runs.
@@ -79,7 +63,6 @@ Your password is: hunter2
 Exiting password manager...
 ```
 
-
 ## NOT IMPLEMENTED
 
 The absences that matter for something holding passwords:
@@ -88,11 +71,3 @@ The absences that matter for something holding passwords:
 - A master password, anything that can read the file can read every entry
 - Password generation
 - Password strength validation
-
-## CONTRIBUTING
-
-This repository is finished and not open to changes.
-
-## LICENSE
-
-This project is available under the MIT License. For further details, please refer to the [LICENSE](https://github.com/jotavare/password-manager-shell-script/blob/main/LICENSE) file.
